@@ -13,3 +13,13 @@ div h2{
 .buttons {
     background-color: greenyellow;
 }
+
+#qualify {
+    background-color: lightblue;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#body-background{
+    background-color: rgb(116, 115, 115);
+}
