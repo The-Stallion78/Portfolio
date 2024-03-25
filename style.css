@@ -1,0 +1,15 @@
+div h2{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    width: 500px;
+}
+#Port-div {
+    background-color: lightslategray;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 400px;
+}
+.buttons {
+    background-color: greenyellow;
+}
