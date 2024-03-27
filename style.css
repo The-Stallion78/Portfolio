@@ -11,15 +11,28 @@ div h2{
     height: 400px;
 }
 .buttons {
-    background-color: greenyellow;
+    background-color: rgb(190, 244, 111);
 }
 
 #qualify {
-    background-color: lightblue;
+    background-color: rgb(150, 146, 146);
     margin-left: 200px;
     margin-right: 200px;
 }
 
 #body-background{
-    background-color: rgb(116, 115, 115);
+    background-color: rgb(90, 87, 87);
+}
+#intro{
+    text-align: center;
+    text-decoration: solid;
+    background-color: rgb(161, 231, 114);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#backColor{
+    background-color: rgb(150, 146, 146);
+    margin-left: 200px;
+    margin-right: 200px;
 }
