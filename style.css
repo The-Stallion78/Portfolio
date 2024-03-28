@@ -5,11 +5,24 @@ div h2{
     width: 500px;
 }
 #Port-div {
-    background-color: lightslategray;
+    background-image: url(images/image1.jpg);
     margin-left: 200px;
     margin-right: 200px;
     height: 400px;
+    padding: 1pc;
 }
+
+#Port-div1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    color: rgb(103, 107, 108);
+}
+
 .buttons {
     background-color: rgb(190, 244, 111);
 }
