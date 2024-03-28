@@ -21,7 +21,7 @@ div h2{
 }
 
 #body-background{
-    background-color: rgb(90, 87, 87);
+    background-image: url(images/home-back.jpg);
 }
 #intro{
     text-align: center;
@@ -35,4 +35,25 @@ div h2{
     background-color: rgb(150, 146, 146);
     margin-left: 200px;
     margin-right: 200px;
+}
+
+#skill-head{
+    text-align: center;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 179, 112);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+    
+}
+
+#skills{
+    background-color: rgb(121, 144, 179);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 3pc;
 }
