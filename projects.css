@@ -1,0 +1,84 @@
+#head {
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#table {
+    text-align: center;
+    border: 3px solid  black;
+    width: 700px;
+    height: 300px;
+}
+
+.script {
+    font-family: serif;
+    font-size: larger;
+    font: bold;
+}
+
+#describe {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    font: bolder;
+}
+
+.div1234 {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px solid black;
+}
+
+#ESS-Project {
+    margin-left: 320px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font: bold;
+}
+
+#HMS-Project {
+    margin-left: 320px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: lightslategray;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+#FAS-Project {
+    margin-left: 320px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: lightslategray;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+#ESD-Project {
+    margin-left: 320px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: lightslategray;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.paragraph {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+
+

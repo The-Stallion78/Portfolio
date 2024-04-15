@@ -1,10 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
 
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS File-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<!--BODY STARTS HERE-->
+
+<body style="background-image: url(images/table.webp);">
+
+    <!--TITLE BAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">My Portfolio</a>
@@ -34,92 +53,183 @@
         </div>
     </nav>
 
-    <h1 style="text-align: center;"><u>My Projects</u></h1>
-    <h2><u style="color: blue;">Tabular Format</u></h2>
+    <!--MAIN HEADING-->
+    <div>
+        <h1 id="head">ACADEMIC PROJECTS</h1>
+    </div> <br><br>
 
-    <!-- I'm using Style element just to make the table look in proper format -->
-    <style>
-        table,
-        tr,
-        td,
-        th {
-            border: 2px solid black;
-            border-collapse: collapse;
-        }
-    </style>
-    <title>Projects</title>
+    <!--TABULAR FORMAT STARTS HERE-->
     <center>
-        <table style="text-align: center;">
+        <table id="table">
+
             <tr style="background-color: rgb(185, 179, 179);">
-                <th>S.No</th>
-                <th>Software Projects</th>
-                <th>Hardware Projects</th>
+                <th class="script">S.No</th>
+                <th class="script">Software Projects</th>
+                <th class="script">Hardware Projects</th>
             </tr>
+
             <tr>
-                <th>1. </th>
-                <td>Hotel Management System</td>
-                <td>Fire Alarm System</td>
+                <th class="script">1. </th>
+                <td class="script">Hotel Management System</td>
+                <td class="script">Fire Alarm System</td>
             </tr>
+
             <tr>
-                <th>2. </th>
-                <td>Electronic Security System</td>
-                <td>Embedded Systems Designing</td>
+                <th class="script">2. </th>
+                <td class="script">Electronic Security System</td>
+                <td class="script">Embedded Systems Designing</td>
             </tr>
+
             <tr>
-                <th>3. </th>
-                <td>AI Chatbot</td>
-                <td>Traffic Control System</td>
+                <th class="script">3. </th>
+                <td class="script">AI Chatbot</td>
+                <td class="script">Traffic Control System</td>
             </tr>
+
         </table>
-    </center>
+    </center> <br><br><br>
 
 
-    <h2><u style="color: blue;">Descriptive Format</u></h2>
-    <ol>
-        <li>
-            <h2>Electronic Security system</h2>
+    <!--DESCRIPTIVE PORTION STARTS HERE-->
+
+    <div>
+        <p id="describe">DESCRIPTION</p>
+    </div> <br><br>
+
+    <!-- FIRST PROJECT-->
+    <div style="background-image: url(images/white-flower.webp);" class="div1234">
+
+        <br>
+        <h2 id="ESS-Project">Electronic Security system</h2>
+
+        <center>
+            <br>
             <img src="https://img.freepik.com/free-vector/home-security-isometric-flowchart_1284-21954.jpg"
-                alt="Electronic Security system" width="200" height="200"><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore explicabo ex repudiandae quo mollitia
-                repellendus adipisci nesciunt dolores modi, nobis reprehenderit sit enim rerum veritatis similique illum
-                iste est soluta.</p>
-        </li>
-        <li>
-            <h2>Hotel management system</h2>
-            <img src="https://c8.alamy.com/comp/2CW3F4G/advantages-of-hotel-management-software-2CW3F4G.jpg"
-                alt="Hotel management system" width="200" height="200"><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime praesentium dolor possimus, doloribus
-                dolorem corrupti provident nisi id qui? Consequatur velit eveniet quam, ab a magnam voluptates culpa
-                neque ea?</p>
-        </li>
-        <li>
-            <h2>Fire Alarm system</h2>
-            <img src="https://www.shutterstock.com/image-photo/fire-alarm-switch-on-factory-260nw-1267099105.jpg"
-                alt="Fire Alarm system" width="200" height="200"><br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quia pariatur, dolores dolorum
-                consequatur non ex culpa consequuntur accusantium cupiditate possimus temporibus illum minima alias ut,
-                ratione numquam deleniti! Ullam?</p>
-        </li>
-        <li>
-            <h2>Embedded systems designing</h2>
-            <img src="https://c8.alamy.com/comp/TRT3TD/ai-toy-car-for-children-education-build-with-logic-circuit-board-electronic-embedded-system-TRT3TD.jpg"
-                alt="Embedded systems designing" width="200" height="200"><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius, iste dolorem deserunt quaerat saepe
-                voluptatem fuga optio sed possimus esse obcaecati ab a. Dolore, aperiam vitae. Nemo, sint reprehenderit!
-            </p>
-        </li>
-    </ol>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
-  </head>
-  <body style="background-image: url(images/back-project.jpg);">
+                alt="Electronic Security system" width="200" height="200" style="border: 4px solid black;"><br><br>
+        </center>
+        <div class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, necessitatibus est? Ipsa, consequatur
+            voluptates. Vel quo aperiam sint dolor numquam perspiciatis, quas ullam eaque adipisci aut natus voluptas
+            minus nihil.
+            Dolorem neque error amet sit laudantium. Eum quod asperiores accusantium tempora aliquam, placeat quisquam
+            incidunt necessitatibus laudantium labore autem! Eaque consectetur hic suscipit voluptatibus quam illo
+            adipisci exercitationem, rem aliquam.
+            Consequuntur quidem reprehenderit explicabo facilis dolor recusandae rem? Dolore deserunt, odit a aliquid
+            eligendi quam molestiae amet quas architecto. Delectus error explicabo reprehenderit totam harum dolore,
+            velit facere distinctio ullam.
+            Tenetur itaque eos nihil corrupti nam fuga facilis! Sapiente voluptates doloribus voluptas tempora minima
+            fugit porro harum dolorem eius labore, unde odit asperiores expedita quisquam inventore blanditiis,
+            quibusdam tempore? Ipsam.
+            Vitae ipsam corrupti voluptates animi, veritatis dicta doloribus temporibus quasi laborum aperiam minima
+            ipsum impedit enim eum dolore esse deserunt vero! Vero quia aut earum tenetur provident. Odio, voluptas.
+            Sint!
+            Vel, fuga, hic tenetur accusantium maxime voluptatibus expedita pariatur animi harum quas non. Aspernatur
+            animi quod ipsum, est alias ab itaque doloremque eveniet qui commodi porro debitis beatae consectetur
+            molestiae. <br><br>
+        </div>
+    </div><br><br>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- SECOND PROJECT-->
+    <div style="background-image: url(images/rose.webp);" class="div1234">
+        <br>
+        <h2 id="HMS-Project">Hotel Management System</h2>
+        <center>
+            <br><br>
+            <img src="https://c8.alamy.com/comp/2CW3F4G/advantages-of-hotel-management-software-2CW3F4G.jpg"
+                alt="Hotel management system" width="200" height="200" style="border: 4px solid black;"><br><br>
+        </center>
+        <div class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, necessitatibus est? Ipsa, consequatur
+            voluptates. Vel quo aperiam sint dolor numquam perspiciatis, quas ullam eaque adipisci aut natus voluptas
+            minus nihil.
+            Dolorem neque error amet sit laudantium. Eum quod asperiores accusantium tempora aliquam, placeat quisquam
+            incidunt necessitatibus laudantium labore autem! Eaque consectetur hic suscipit voluptatibus quam illo
+            adipisci exercitationem, rem aliquam.
+            Consequuntur quidem reprehenderit explicabo facilis dolor recusandae rem? Dolore deserunt, odit a aliquid
+            eligendi quam molestiae amet quas architecto. Delectus error explicabo reprehenderit totam harum dolore,
+            velit facere distinctio ullam.
+            Tenetur itaque eos nihil corrupti nam fuga facilis! Sapiente voluptates doloribus voluptas tempora minima
+            fugit porro harum dolorem eius labore, unde odit asperiores expedita quisquam inventore blanditiis,
+            quibusdam tempore? Ipsam.
+            Vitae ipsam corrupti voluptates animi, veritatis dicta doloribus temporibus quasi laborum aperiam minima
+            ipsum impedit enim eum dolore esse deserunt vero! Vero quia aut earum tenetur provident. Odio, voluptas.
+            Sint!
+            Vel, fuga, hic tenetur accusantium maxime voluptatibus expedita pariatur animi harum quas non. Aspernatur
+            animi quod ipsum, est alias ab itaque doloremque eveniet qui commodi porro debitis beatae consectetur
+            molestiae. <br><br>
+        </div>
+    </div><br><br>
+
+    <!-- THIRD PROJECT-->
+    <div style="background-image: url(images/aloevera.webp);" class="div1234">
+        <br>
+        <h2 id="FAS-Project">Fire Alarm System</h2>
+
+        <center>
+            <br><br>
+            <img src="https://www.shutterstock.com/image-photo/fire-alarm-switch-on-factory-260nw-1267099105.jpg"
+                alt="Fire Alarm system" width="200" height="200" style="border: 4px solid black;"><br><br>
+        </center>
+        <div class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, necessitatibus est? Ipsa, consequatur
+            voluptates. Vel quo aperiam sint dolor numquam perspiciatis, quas ullam eaque adipisci aut natus voluptas
+            minus nihil.
+            Dolorem neque error amet sit laudantium. Eum quod asperiores accusantium tempora aliquam, placeat quisquam
+            incidunt necessitatibus laudantium labore autem! Eaque consectetur hic suscipit voluptatibus quam illo
+            adipisci exercitationem, rem aliquam.
+            Consequuntur quidem reprehenderit explicabo facilis dolor recusandae rem? Dolore deserunt, odit a aliquid
+            eligendi quam molestiae amet quas architecto. Delectus error explicabo reprehenderit totam harum dolore,
+            velit facere distinctio ullam.
+            Tenetur itaque eos nihil corrupti nam fuga facilis! Sapiente voluptates doloribus voluptas tempora minima
+            fugit porro harum dolorem eius labore, unde odit asperiores expedita quisquam inventore blanditiis,
+            quibusdam tempore? Ipsam.
+            Vitae ipsam corrupti voluptates animi, veritatis dicta doloribus temporibus quasi laborum aperiam minima
+            ipsum impedit enim eum dolore esse deserunt vero! Vero quia aut earum tenetur provident. Odio, voluptas.
+            Sint!
+            Vel, fuga, hic tenetur accusantium maxime voluptatibus expedita pariatur animi harum quas non. Aspernatur
+            animi quod ipsum, est alias ab itaque doloremque eveniet qui commodi porro debitis beatae consectetur
+            molestiae. <br><br>
+        </div>
+    </div><br><br>
+
+    <!-- FOURTH PROJECT-->
+    <div style="background-image: url(images/strip.jpeg);" class="div1234">
+        <br>
+        <h2 id="ESD-Project">Embedded Systems Designing</h2>
+
+        <center>
+            <br><br>
+            <img src="https://c8.alamy.com/comp/TRT3TD/ai-toy-car-for-children-education-build-with-logic-circuit-board-electronic-embedded-system-TRT3TD.jpg"
+                alt="Embedded systems designing" width="200" height="200" style="border: 4px solid black;"><br><br>
+        </center>
+        <div class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, necessitatibus est? Ipsa, consequatur
+            voluptates. Vel quo aperiam sint dolor numquam perspiciatis, quas ullam eaque adipisci aut natus voluptas
+            minus nihil.
+            Dolorem neque error amet sit laudantium. Eum quod asperiores accusantium tempora aliquam, placeat quisquam
+            incidunt necessitatibus laudantium labore autem! Eaque consectetur hic suscipit voluptatibus quam illo
+            adipisci exercitationem, rem aliquam.
+            Consequuntur quidem reprehenderit explicabo facilis dolor recusandae rem? Dolore deserunt, odit a aliquid
+            eligendi quam molestiae amet quas architecto. Delectus error explicabo reprehenderit totam harum dolore,
+            velit facere distinctio ullam.
+            Tenetur itaque eos nihil corrupti nam fuga facilis! Sapiente voluptates doloribus voluptas tempora minima
+            fugit porro harum dolorem eius labore, unde odit asperiores expedita quisquam inventore blanditiis,
+            quibusdam tempore? Ipsam.
+            Vitae ipsam corrupti voluptates animi, veritatis dicta doloribus temporibus quasi laborum aperiam minima
+            ipsum impedit enim eum dolore esse deserunt vero! Vero quia aut earum tenetur provident. Odio, voluptas.
+            Sint!
+            Vel, fuga, hic tenetur accusantium maxime voluptatibus expedita pariatur animi harum quas non. Aspernatur
+            animi quod ipsum, est alias ab itaque doloremque eveniet qui commodi porro debitis beatae consectetur
+            molestiae. <br><br>
+        </div>
+    </div><br><br>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
