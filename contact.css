@@ -1,0 +1,39 @@
+#body-back {
+    background-image: url(images/contact.jpg);
+}
+
+#out-box {
+    margin-top: 90px;
+    text-align: center;
+    background-image: url(images/contact-back.jpg);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 400px;
+}
+
+#main-content {
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#contacts {
+    margin-left: 250px;
+    margin-right: 228px;
+    background-color: azure;
+}
+
+#whatsapp {
+    margin-left: 10px;
+    text-align: left;
+}
+
+#instagram {
+    margin-left: 10px;
+    text-align: left;
+}
+
+
